@@ -17,7 +17,7 @@ export default function App() {
   ])
   useEffect(() => {
    
-    axios.get('http://localhost:4200/api/book')  
+    axios.get('https://book-search-lrng.onrender.com')  
       .then(res => {setbook(res.data.book)})
       .catch(err => console.log(err))
 
