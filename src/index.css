@@ -1,0 +1,114 @@
+#nave {
+  background-color: rgb(245, 227, 227); /* Couleur de fond pour la barre de navigation */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+
+#nave a {
+  color: rgb(115, 5, 5); /* Couleur du texte des liens */
+  text-decoration: none; /* Suppression du soulignement par défaut des liens */
+  padding: 10px 15px; /* Ajout de remplissage pour les liens */
+}
+
+#nave a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Couleur de fond au survol des liens */
+}
+.material-symbols-outlined{
+  background-color: brown;
+  width: 120px;
+  font-size: 30px;
+  color:white;
+  margin:40px;
+  margin-left: 80px;
+}
+#new{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: rgb(67, 65, 65);
+  background: var(--primary);
+  cursor: pointer;
+}
+#table {
+  width: 100%; /* Largeur du tableau à 100% de son conteneur */
+  border-collapse: collapse; /* Fusionner les bordures de cellules pour un aspect plus net */
+}
+
+#table th, #table td {
+  border: 1px solid #ddd; /* Bordure de 1 pixel solide grise */
+  padding: 8px; /* Espace intérieur de 8 pixels pour les cellules */
+  text-align: left; /* Alignement du texte à gauche dans les cellules */
+}
+
+#table th {
+  background-color: #f2f2f2; /* Couleur de fond gris clair pour les cellules d'en-tête */
+}
+
+#table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Couleur de fond gris clair pour les lignes paires */
+}
+
+#title {
+  font-size: 24px; /* Taille de la police */
+  color: #333; /* Couleur du texte */
+  font-weight: bold; /* Gras */
+  text-align: center; /* Alignement du texte au centre */
+  margin-bottom: 20px; /* Marge en bas pour créer de l'espace */
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: centre;
+  font-size: 24px; /* Taille de la police */
+  color: #333; /* Couleur du texte */
+  font-weight: bold; /* Gras */
+
+}
+input{
+  width: 200px;
+  height: 40px;
+  background-color: aliceblue;
+}
+#desc {
+  width: calc(50% - 100px); 
+  height: 300px;
+ 
+}
+#mise{
+  background-color: rgb(215, 140, 42);
+  font-size: 30px;
+  color: black;
+  margin-top: 20px;
+  border-radius: 4px;
+  height: 80px;
+}
+#jour {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrage des éléments horizontalement */
+}
+
+#jour label {
+  margin-bottom: 5px; /* Espacement entre les labels et les inputs */
+}
+
+#jour input {
+  width: 50%; /* Largeur pleine du formulaire */
+  margin-bottom: 10px; /* Espacement entre les inputs */
+  padding: 5px; /* Remplissage pour l'intérieur des inputs */
+}
+
+#jour button {
+  width: 300px; /* Largeur du bouton */
+  padding: 10px; /* Remplissage pour le bouton */
+  margin-top: 10px; /* Espacement au-dessus du bouton */
+}
