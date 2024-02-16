@@ -9,7 +9,7 @@ function Detailes({}) {
 
      const [booked,setbooked] =useState('')
     
-        axios.get(`http://localhost:4200/api/book/${id}`)  
+        axios.get(`https://book-search-lrng.onrender.com/api/book/${id}`)  
         .then(res => {setbooked(res.data.book)})//je recupre dans la variable set movie
         .catch(err => console.log(err))
           

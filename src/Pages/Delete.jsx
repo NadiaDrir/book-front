@@ -9,7 +9,7 @@ function Delete({}) {
  
    
     function handleDelete(){
-        axios.delete(`http://localhost:4200/api/book/${id}`)
+        axios.delete(`https://book-search-lrng.onrender.com/api/book/${id}`)
         .then(()=>{navigate('/')}).catch((erreur)=>console.log(erreur))
      }
      
